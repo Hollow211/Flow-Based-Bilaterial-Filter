@@ -34,12 +34,18 @@ Without the two previous steps, pixelization would look really bad and it will h
   <tr>
     <th>Original</th>
     <th>F-Bilaterial</th>
-    <th>Quantization</th>
-    <th>Pixelated</th>
   </tr>
   <tr>
     <td><img src="/results/Flower/og.png"></td>
     <td><img src="/results/Flower/flow.png"></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Quantization</th>
+    <th>Pixelated</th>
+  </tr>
+  <tr>
     <td><img src="/results/Flower/quant.png"></td>
     <td><img src="/results/Flower/pixel.png"></td>
   </tr>
@@ -56,6 +62,14 @@ Without the two previous steps, pixelization would look really bad and it will h
   <tr>
     <td><img src="/results/Cat/og.png"></td>
     <td><img src="/results/Cat/flow.png"></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Quantization</th>
+    <th>Pixelated</th>
+  </tr>
+  <tr>
     <td><img src="/results/Cat/quant.png"></td>
     <td><img src="/results/Cat/pixel.png"></td>
   </tr>
@@ -66,12 +80,18 @@ Without the two previous steps, pixelization would look really bad and it will h
   <tr>
     <th>Original</th>
     <th>F-Bilaterial</th>
-    <th>Quantization</th>
-    <th>Pixelated</th>
   </tr>
   <tr>
     <td><img src="/results/lena/og.png"></td>
     <td><img src="/results/lena/flow.png"></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Quantization</th>
+    <th>Pixelated</th>
+  </tr>
+  <tr>
     <td><img src="/results/lena/quant.png"></td>
     <td><img src="/results/lena/pixel.png"></td>
   </tr>
@@ -82,12 +102,18 @@ Without the two previous steps, pixelization would look really bad and it will h
   <tr>
     <th>Original</th>
     <th>F-Bilaterial</th>
-    <th>Quantization</th>
-    <th>Pixelated</th>
   </tr>
   <tr>
     <td><img src="/results/Dog/og.png"></td>
     <td><img src="/results/Dog/flow.png"></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <th>Quantization</th>
+    <th>Pixelated</th>
+  </tr>
+  <tr>
     <td><img src="/results/Dog/quant.png"></td>
     <td><img src="/results/Dog/pixel.png"></td>
   </tr>
