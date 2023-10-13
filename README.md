@@ -20,13 +20,33 @@ That's why we have to take local orientation of the image (Structure tensor) int
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th>F-Bilaterial SigmaR=0.0525</th>
+    <th>F-Bilaterial SigmaR=0.0625 2 Iterations</th>
+  </tr>
+  <tr>
+    <td><img src="/results/Cat0/flow2.png"></td>
+    <td><img src="/results/Cat0/flow3.png"></td>
+  </tr>
+</table>
+
 ## Color quantization.
 To give the image more "abstraction" we can quantize the image to have a limited palette. It works really well with the Bilaterial filter smoothing and give the image better abstracted look.<br><br>
 <img src="/results/Cat0/quant.png"><br><br>
 ## Pixelization
 Since we now have a limited palette and a very abstracted image, we can apply pixelization filter on the result to get a nicely pixelated image of different resolutions.<br>
-Without the two previous steps, pixelization would look really bad and it will have alot of colors that hurt the eyes.<br><br>
-<img src="/results/Cat0/pixel.png"><br><br>
+Without the two previous steps, pixelization would look really bad and it will have alot of colors that hurt the eyes.
+<table>
+  <tr>
+    <th>F-Bilaterial</th>
+    <th>F-Bilaterial SigmaR=0.0625 2 Iterations</th>
+  </tr>
+  <tr>
+    <td><img src="/results/Cat0/pixel.png"></td>
+    <td><img src="/results/Cat0/pixe3.png"></td>
+  </tr>
+</table>
 
 # Results/Samples
 NOTE: Please refer to the full resolution images if you want to see the smoothing as I didn't apply too much smoothing in my examples.
