@@ -29,6 +29,7 @@ Without the two previous steps, pixelization would look really bad and it will h
 <img src="/results/Cat0/pixel.png"><br><br>
 
 # Results/Samples
+NOTE: Please refer to the full resolution images if you want to see the smoothing as I didn't apply too much smoothing in my examples.
 ## 1) Flower
 <table>
   <tr>
@@ -56,8 +57,6 @@ Without the two previous steps, pixelization would look really bad and it will h
   <tr>
     <th>Original</th>
     <th>F-Bilaterial</th>
-    <th>Quantization</th>
-    <th>Pixelated</th>
   </tr>
   <tr>
     <td><img src="/results/Cat/og.png"></td>
