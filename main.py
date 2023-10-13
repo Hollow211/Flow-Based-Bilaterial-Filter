@@ -1,16 +1,20 @@
-# This is a sample Python script.
+import Functions
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Variables
+sigma = 1.5 # How much blur do we apply to get gradient for the strcture tensor
+sigmaC = 2.3 # How much do we blur the structure tensor
+sigmaD = 6
+sigmaR = 0.0425
+QuantizOutput = False
+K = 21 # For color Quantization
+PixelOutput = False
+pixelSize = 128
+
+image_path = "/content/lena.png"
+
+Functions.Inference(image_path, pixelSize, K, sigmaD, sigmaR, QuantizOutput, PixelOutput)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
