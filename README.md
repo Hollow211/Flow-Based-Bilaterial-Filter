@@ -44,7 +44,7 @@ Without the two previous steps, pixelization would look really bad and it will h
   </tr>
   <tr>
     <td><img src="/results/Cat0/pixel.png"></td>
-    <td><img src="/results/Cat0/pixe3.png"></td>
+    <td><img src="/results/Cat0/pixel3.png"></td>
   </tr>
 </table>
 
